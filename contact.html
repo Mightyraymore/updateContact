@@ -1,0 +1,110 @@
+<?php
+	// check for submit
+	if(filter_has_var(INPUT_POST, 'submit')){
+		echo 'Submitted';
+	}
+?>
+<!DOCTYPE html> 
+	<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Chad's Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="mainstyles.css">
+	
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" 
+integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" 
+crossorigin="anonymous">
+
+	
+	 <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+	integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+	crossorigin="anonymous">
+	
+	</head>
+	
+	<nav class="navbar sticky-top">
+	<h1>Contact</h1>
+
+		<ul class="nav justify-content-end">
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="index.html">Resume</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="skills.html">Skills</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="about.html">About</a>
+		  </li>
+		  <li <li class="nav-item">
+			<a class="nav-link" href="contact.html">Contact</a>
+		</ul>
+	</nav>
+
+<body>
+
+<!-- banner container Class -->
+<div class="container-fluid">
+	<div class="row">	
+		<div class="col-md-12">
+			<div class="card mb-3">
+			<img class="card-img-top" style="height: 240px"; src="images/cards/tech-banner.jpg" alt="Card image cap">
+			</div>
+		</div>	<!-- End of card Class -->
+	</div>
+</div>	<!-- End of banner container Class -->
+
+
+
+<!-- Contact Form -->
+
+<div class="container">
+	<form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>"
+	>
+		<div class="form-group">
+			<label>Name</label>
+			<input type="text" name="name" class="form-control"
+			value="">
+		</div>	<!-- end of form group name -->
+		
+		<div class="form-group">
+			<label>Email</label>
+			<input type="text" name="email" class="form-control"
+			value="">
+		</div>	<!-- end of form group email -->
+		
+		<div class="form-group">
+			<label>Message</label>
+			<textarea name="Message" class="form-control"></textarea>
+		</div>	<!-- end of form group message -->
+		
+		<br>
+		<button type="submit" name="submit" class="btn btn-primary">Submit</button>
+		
+	</form>
+</div>	<!-- end of container -->
+
+<!-- End Contact Form-->
+
+
+
+<div class="footer">	<!-- footer Class -->
+	<div id="socMed">	<!-- fontAwesome Social Media icons div -->
+	<ul>
+		<li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+		<li><a href="https://www.linkedin.com/in/chad-gayken-91bab1a1/"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+		<li><a href="https://plus.google.com/u/0/"><i class="fab fa-google-plus-g" aria-hidden="true"></i></a></li>
+	</ul>
+	</div>	<!-- End of fontAwesome Social Media icons div -->
+</div>	<!-- End of for footer Class -->
+
+<!--  End of Social Media icons ID -->
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"</script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	</body>
+
+</html>

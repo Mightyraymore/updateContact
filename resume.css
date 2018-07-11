@@ -1,0 +1,48 @@
+@import "resume.css";
+@import "paragraph.css";
+@import "skins.css";
+@import "navbar.css";
+
+.navbar	{
+	background-color: #36454F;
+}
+
+.nav-link	{
+	color: white;
+}
+
+body {
+	font-size:62.5%;
+	margin: 0;
+	padding: 0;
+	background-image: url("images/pictures/LightGarden.jpg");
+	background-attachment: fixed;
+}
+
+.wrapper	{
+	font-size: 1.6em;
+	padding: 2em;
+	margin: 0 auto;
+	width: 900px
+	height: 2000px;
+	background-color: gray;
+}
+
+.footer	{
+	padding: 22px 22px 22px 56px;
+	background-color: #36454F;
+	position: fixed;
+	bottom: 0;
+    width: 100%;
+	color: white;
+}
+
+#facebook	{
+	padding: 18px 15px 18px 20px;
+}
+#linkedin	{
+	padding: 18px 15px 18px 20px;
+}
+#googleplus	{
+	padding: 18px 15px 18px 20px;
+}
