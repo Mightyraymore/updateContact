@@ -5,116 +5,112 @@
 @import "SocMedia.css";
 
 .navbar{
-	background-color: #36454F;
+        background-color: #36454F;
 }
 
 .nav-link{
-	color: white;
+        color: white;
 }
 
 .card{
-	background-color: #36454F;
-	border-radious: 0;
+        background-color: #36454F;
+        border-radious: 0;
 }
 
 h3.card-titel{
-	font-size: 1.5rem;
+        font-size: 1.5rem;
 }
 h5.card-subtitle{
-	font-size: 1.2rem;
+        font-size: 1.2rem;
 }
 p.card-text{
-	padding-bottom: 0.8rem;
-	line-height: 1.2rem;
+        padding-bottom: 0.8rem;
+        line-height: 1.2rem;
 }
 
 #facebook{
-	padding: 18px 15px 18px 20px;
+        padding: 18px 15px 18px 20px;
 }
 #linkedin{
-	padding: 18px 15px 18px 20px;
+        padding: 18px 15px 18px 20px;
 }
 #googleplus{
-	padding: 18px 15px 18px 20px;
+        padding: 18px 15px 18px 20px;
 }
 
 #container{
-	height: auto;
-	background-color: #007FFF; 
+        height: auto;
+        background-color: #007FFF;
 }
-
-.aboutLeftDiv	{
-	background-color: #007FFF;
-	min-height: 900px;
-	text-align: center;
+.aboutLeftDiv   {
+        background-color: #007FFF;
+        min-height: 900px;
+        text-align: center;
 }
-.aboutMidDiv	{;
-	min-height: 900px;
-	background-color: #007FFF;
-	text-align: center;
+.aboutMidDiv    {;
+        min-height: 900px;
+        background-color: #007FFF;
+        text-align: center;
 }
-.aboutRightDiv	{
-	background-color: #007FFF;
-	min-height: 900px;
-	text-align: center;
+.aboutRightDiv  {
+        background-color: #007FFF;
+        min-height: 900px;
+        text-align: center;
 }
 
 div.col-md-12{
-	padding-left: 0;
-	padding-right: 0;
+        padding-left: 0;
+        padding-right: 0;
 }
 
 .footer{
-	padding: 50px 22px 5px 45px;
-	background-color: #36454F;
-	position: fixed;
-	bottom: 0;
+        padding: 50px 22px 5px 45px;
+        background-color: #36454F;
+        position: fixed;
+        bottom: 0;
     width: 100%;
 }
 
-
 .parent {
-	background-color: white;
-	display: flex;
-	flex-flow: row;
-	margin: 0px;
-	padding: 10px;
-	align-self; strech;
-	min-width: 0;
+        background-color: white;
+        display: flex;
+        flex-flow: row;
+        margin: 0px;
+        padding: 10px;
+        align-self; strech;
+        min-width: 0;
 
 }
 
-div.itemL1		{
-	background-color: #5072A7;
-	display: flex;
-	margin: 0px;
-	padding: 30px;
-	width: 0 1;
-	flex: 0 1 auto;
-	font-size: small;
+div.itemL1              {
+        background-color: #5072A7;
+        display: flex;
+        margin: 0px;
+        padding: 30px;
+        width: 0 1;
+        flex: 0 1 auto;
+        font-size: small;
 }
-div.itemM1	{
-	background-color: #5072A7;
-	display: flex;
-	margin: 0px;
-	padding: 30px;
-	width: 0 1;
-	flex: 0 1 auto;
-	font-size: small;
+
+div.itemM1      {
+        background-color: #5072A7;
+        display: flex;
+        margin: 0px;
+        padding: 30px;
+        width: 0 1;
+        flex: 0 1 auto;
+        font-size: small;
 }
-div.itemR1	{	
-	background-color: #5072A7;
-	display: flex;
-	margin: 0px;
-	padding: 30px;
-	width: 0 1;
-	flex: 0 1 auto;
-	font-size: small;
+div.itemR1      {
+        background-color: #5072A7;
+        display: flex;
+        margin: 0px;
+        padding: 30px;
+        width: 0 1;
+        flex: 0 1 auto;
+        font-size: small;
 }
 
 #row{
-	height: 4rem;
+        height: 4rem;
 }
-
-
-

@@ -1,63 +1,63 @@
 div .footer{
-	margin: 0;
-	padding: 0;
-	background: #262626:
+        margin: 0;
+        padding: 0;
+        background: #262626:
 }
 div #socMed ul{
-	display: flex;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
+        display: flex;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
 }
 div #socMed ul li{
-	list-style: none;
+        list-style: none;
 }
 div #socMed ul li a{
-	width: 80px;
-	height: 80px;
-	background: #fff;
-	text-align: center;
-	line-height: 80px;
-	font-size: 35px;
-	margin: 0 10px;
-	display: block;
-	border-radius: 50%;
-	position: relative;
-	overflow: hidden;
-	border: 3px solid #fff;
-	z-index: 1;
+        width: 80px;
+        height: 80px;
+        background: #fff;
+        text-align: center;
+        line-height: 80px;
+        font-size: 35px;
+        margin: 0 10px;
+        display: block;
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+        border: 3px solid #fff;
+        z-index: 1;
 }
 div #socMed ul li a .fa{
-	position: relative;
-	color: #262626;
-	transition: .5s;
-	z-index: 3;
+        position: relative;
+        color: #262626;
+        transition: .5s;
+        z-index: 3;
 }
 div #socMed ul li a:hover .fa{
-	color: #fff;
+        color: #fff;
 }
 div #socMed ul li a:before{
-	content: '';
-	position: absolute;
-	top: 100%;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: #f00;
-	transition: .5s;
-	z-index: 2;
-	
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #f00;
+        transition: .5s;
+        z-index: 2;
+
 }
 div #socMed ul li a:hover:before{
-	top: 0;
+        top: 0;
 }
 div #socMed ul li:nth-child(1) a:before{
-	background: #3b5999;
+        background: #3b5999;
 }
 div #socMed ul li:nth-child(2) a:before{
-	background: #0077B5;
+        background: #0077B5;
 }
 div #socMed ul li:nth-child(3) a:before{
-	background: #dd4b39;
+        background: #dd4b39;
 }

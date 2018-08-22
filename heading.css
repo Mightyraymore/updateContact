@@ -1,49 +1,71 @@
-.aboutLeftDiv h3	{
-	font-family: 'Finger Paint', cursive;
-	text-align:center;
-	color: white;
-	padding: 18px;
+.aboutLeftDiv h3        {
+        font-family: 'Finger Paint', cursive;
+        text-align:center;
+        color: white;
+        padding: 18px;
 }
-.aboutMidDiv h3		{
-	font-family: 'Finger Paint', cursive;
-	text-align:center;
-	color: white;
-	padding: 18px;
+.aboutMidDiv h3         {
+        font-family: 'Finger Paint', cursive;
+        text-align:center;
+        color: white;
+        padding: 18px;
 }
-.aboutRightDiv h3	{
-	font-family: 'Finger Paint', cursive;
-	text-align:center;
-	color: white;
-	padding: 18px;
-}
-
-.headerLeft	{
-	font-family: 'Finger Paint', cursive;
-	font-size: large;
-	text-align:center;
-	color: white;
-	padding: 18px;
-}
-.headerMid	{
-	font-family: 'Finger Paint', cursive;
-	font-size: large;
-	text-align:center;
-	color: white;
-	padding: 18px;
-}
-.headerRight	{
-	font-family: 'Finger Paint', cursive;
-	font-size: large;
-	text-align:center;
-	color: white;
-	padding: 18px;
+.aboutRightDiv h3       {
+        font-family: 'Finger Paint', cursive;
+        text-align:center;
+        color: white;
+        padding: 18px;
 }
 
-.content h3	{ 
-	margin-top: auto;
-	font-family: 'Finger Paint', cursive;
-	text-align:center;
-	color: white;
-	padding: 18px;
+.headerLeft     {
+        font-family: 'Finger Paint', cursive;
+        font-size: large;
+        text-align:center;
+        color: white;
+        padding: 18px;
 }
-	
+.headerMid      {
+        font-family: 'Finger Paint', cursive;
+        font-size: large;
+        text-align:center;
+        color: white;
+        padding: 18px;
+}
+.headerRight    {
+        font-family: 'Finger Paint', cursive;
+        font-size: large;
+        text-align:center;
+        color: white;
+        padding: 18px;
+}
+
+.content h3     {
+        margin-top: auto;
+        font-family: 'Finger Paint', cursive;
+        text-align:center;
+        color: white;
+        padding: 18px;
+}
+
+.headerMid      {
+        font-family: 'Finger Paint', cursive;
+        font-size: large;
+        text-align:center;
+        color: white;
+        padding: 18px;
+}
+.headerRight    {
+        font-family: 'Finger Paint', cursive;
+        font-size: large;
+        text-align:center;
+        color: white;
+        padding: 18px;
+}
+
+.content h3     {
+        margin-top: auto;
+        font-family: 'Finger Paint', cursive;
+        text-align:center;
+        color: white;
+        padding: 18px;
+}
